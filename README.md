@@ -180,14 +180,14 @@ Contributions welcome! Please open an issue first to discuss proposed changes.
 
 ## 📝 License
 
-MIT License - see LICENSE file for details
+MIT License
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+**Rixda9**
+- GitHub: [@Rixda9](https://github.com/Rixda9)
 - LinkedIn: [Your Name](https://linkedin.com/in/yourname)
 
 ---
 
-Built with ❤️ using Go
+Built using Go
