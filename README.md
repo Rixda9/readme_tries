@@ -2,18 +2,23 @@
 
 A high-performance URL shortening service built with Go, featuring Redis caching and PostgreSQL storage.
 
-## 🚀 Live Demo
+## 🚀 Quick Start
 
-**Try it:** [https://your-app.fly.dev](https://your-app.fly.dev)
+### Via Web Interface
+1. Run the application locally (see Getting Started below)
+2. Visit http://localhost:8080
+3. Paste your URL and click "Shorten"!
+
+### Via API
 ```bash
 # Shorten a URL
-curl -X POST https://your-app.fly.dev/api/shorten \
+curl -X POST http://localhost:8080/api/shorten \
   -H "Content-Type: application/json" \
   -d '{"url": "https://github.com/yourusername"}'
 
 # Response
 {
-  "short_url": "https://your-app.fly.dev/aB3xK9"
+  "short_url": "http://localhost:8080/aB3xK9"
 }
 ```
 
